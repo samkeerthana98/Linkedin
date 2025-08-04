@@ -10,3 +10,4 @@ python project/backend/manage.py collectstatic --no-input
 
 # Run migrations
 python project/backend/manage.py migrate
+
