@@ -6,7 +6,7 @@ set -o errexit
 pip install -r requirements.txt
 
 # Change to backend directory for Django commands
-cd backend
+cd project/backend
 
 # Collect static files
 python manage.py collectstatic --no-input
