@@ -8,7 +8,8 @@ services:
     name: mini-linkedin-django
     runtime: python3
     buildCommand: "./build.sh"
-    startCommand: "gunicorn project_name.wsgi:application"
+    startCommand: "gunicorn project.backend.wsgi:application"
+
     envVars:
       - key: DATABASE_URL
         fromDatabase:
