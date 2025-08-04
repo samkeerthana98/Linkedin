@@ -10,7 +10,7 @@ pip install -r requirements.txt
 cd project/backend
 
 # Collect static files
-python manage.py collectstatic --no-input
+python project/backend/manage.py collectstatic --no-input
 
 # Run migrations
-python manage.py migrate
+python project/backend/manage.py migrate
